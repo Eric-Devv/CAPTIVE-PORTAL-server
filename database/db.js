@@ -139,7 +139,7 @@ export const initDatabase = () => {
     // In production, this should be replaced with a secure password
     db.prepare(`
       INSERT INTO admin_users (username, password)
-      VALUES ('admin', 'admin123')
+      VALUES ('admin', 'evmwendwa')
     `).run();
     
     console.log('Default admin user created');
